@@ -1,5 +1,9 @@
 {
-    "Ciudades":{
-        
+    "Ciudades": {
+        "Bucaramanga": {
+            "Codigo postal": 60001,
+            "Poblacion Estimada": "66645",
+            "Pais de origen": "Colombia"
+        }
     }
 }
