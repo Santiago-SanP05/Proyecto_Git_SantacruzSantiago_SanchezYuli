@@ -10,16 +10,17 @@ facilitando la administración de datos a nivel más localizado y proporcionara 
  |1|Instalacion|
  |2|Uso|
  |3|Funcionalidades|
- |4|Contacto|
+ |4|Contribución|
+ |5|Licencia|
+ |6|Contacto|
 
 
  ## Instalación
 
  
  >git clone https://github.com/Santiago-SanP05/Proyecto_Git_SantacruzSantiago_SanchezYuli.git
- cd Proyecto_Git_SantacruzSantiago_SanchezYuli
- code .
- "
+ >cd Proyecto_Git_SantacruzSantiago_SanchezYuli
+ >code .
 
  ## Uso
  Ingresar a main.py para ejecutar
@@ -43,9 +44,23 @@ ciudades que no existan previamente
  este traiga la ciudad relacionada con este item, ademas permite filtrar 
  el número de ciudades relacionadas con cada pais.
 
- ## Contacto
+ ## Contribución
+¡Las contribuciones son bienvenidas! Si deseas contribuir a este proyecto, por favor sigue estos pasos: 
+Puedes contribuir creando un fork del repositorio y enviando un pull request.
 
- Si desea contribuir con el proyecto o resolver dudas que le haya generado puede contactarnos a estos numeros 
- |Santiago|Stefany|
- |--|--|
- |+57 350 811 5170|+57 315 306 5043|
+|Tipo de contribución|Aceptado|Comentarios|
+|--|--|--|
+|Reporte de errores|Sí|Utiliza la sección de issues en GitHub|
+|Nuevas características|Sí|Envía un pull request con tus propuestas|
+
+## Licencia
+Este proyecto está licenciado bajo la Licencia MIT.
+
+>La Licencia MIT es una licencia de software libre permisiva que es ampliamente utilizada en la comunidad de software
+
+## Contacto
+
+Si desea contribuir con el proyecto o resolver dudas que le haya generado puede contactarnos a estos numeros 
+|Santiago|Stefany|
+|--|--|
+|+57 350 811 5170|+57 315 306 5043|
