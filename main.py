@@ -1,3 +1,5 @@
 from Menu import *
-
-Menu()
+try:
+    Menu()
+except Exception:
+    print("Algo salio mal")
