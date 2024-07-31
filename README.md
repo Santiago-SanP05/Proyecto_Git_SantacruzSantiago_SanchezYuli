@@ -17,13 +17,28 @@ facilitando la administración de datos a nivel más localizado y proporcionara 
 
  ## Instalación
 
- 
- >git clone https://github.com/Santiago-SanP05/Proyecto_Git_SantacruzSantiago_SanchezYuli.git
- >cd Proyecto_Git_SantacruzSantiago_SanchezYuli
- >code .
+ > Para la la instalacion de esta pagina ten en cuenta los siguientes pasos:
+1. Clona el repositorio:
+    ```bash
+    git clone https://github.com/Santiago-SanP05/Proyecto_Git_SantacruzSantiago_SanchezYuli.git
+    ```
+2. Navega al directorio del proyecto:
+    ```bash
+    cd tu-repositorio
+    ```
+3. Proceso de Abrir:
+   una vez ubicado dentro de tu carpetas se puede utilizar
+    ```bash
+    code .
+    ```
 
  ## Uso
  Ingresar a main.py para ejecutar
+- Sirve:
+Para registrar y gestionar informacion sobre ciudades.
+- Facilita:
+Facilita la admistración de datos a nivel mas localizado y proporciona una base para analisis detallado a nivel de ciudad.
+
 
 ## Funcionalidades
 
@@ -52,6 +67,22 @@ Puedes contribuir creando un fork del repositorio y enviando un pull request.
 |--|--|--|
 |Reporte de errores|Sí|Utiliza la sección de issues en GitHub|
 |Nuevas características|Sí|Envía un pull request con tus propuestas|
+
+> [!TIP]
+> Esto es un resumen de pasos para la contribucion al proyecto
+>1. Clonar
+>       ```bash
+>    git clone https://github.com/Santiago-SanP05/Proyecto_Git_SantacruzSantiago_SanchezYuli.git
+>       ```
+>2. Crea una nueva rama:
+>    ```bash
+>    git branch nueva-funcionalidad
+>    ```
+>3. Realiza tus cambios y haz commit:
+>    ```bash
+>    git commit -m 'Añadir nueva funcionalidad'
+>    ```
+>4. Envía un pull request.
 
 ## Licencia
 Este proyecto está licenciado bajo la Licencia MIT.
