@@ -6,9 +6,14 @@
             "Pais de origen": "Colombia"
         },
         "Bogota": {
-            "Codigo postal": 30033,
-            "Poblacion Estimada": "3050",
+            "Codigo postal": 252525,
+            "Poblacion Estimada": "5000",
             "Pais de origen": "Colombia"
+        },
+        "Texas": {
+            "Codigo postal": 232323,
+            "Poblacion Estimada": "10000",
+            "Pais de origen": "Estados Unidos"
         }
     }
 }

@@ -4,7 +4,7 @@ from Ciudades import *
 def Menu():
     list = ["1.Para opciones de ciudades","2.Para busqueda avanzada","3.Para salir"]
     while True:
-        print("Por favor marca una de las opcciones")
+        print("Por favor marca una de las opciones")
         for i in list:
             print(i)
         opc = int(input("->"))
