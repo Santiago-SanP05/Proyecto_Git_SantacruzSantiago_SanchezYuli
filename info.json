@@ -4,6 +4,11 @@
             "Codigo postal": 60001,
             "Poblacion Estimada": "66645",
             "Pais de origen": "Colombia"
+        },
+        "Bogota": {
+            "Codigo postal": 30033,
+            "Poblacion Estimada": "3050",
+            "Pais de origen": "Colombia"
         }
     }
 }

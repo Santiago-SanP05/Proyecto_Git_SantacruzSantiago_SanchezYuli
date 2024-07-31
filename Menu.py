@@ -1,39 +1,62 @@
-
-
-
+from Busqueda import *
+from Ciudades import *
 
 def Menu():
-    list = ["1.para ingresar un usuario nuevo","2.para editar","3.para busqueda avanzada","4.para salir"]
+    list = ["1.Para opciones de ciudades","2.Para busqueda avanzada","3.Para salir"]
     while True:
-        print("por favor marca una de las opcciones")
+        print("Por favor marca una de las opcciones")
         for i in list:
             print(i)
         opc = int(input("->"))
         if opc == 1:
-            print("---accediendo---")
+            print("---Accediendo---")
+            menuthree()
         elif opc == 2:
-            print("---accediendo---")
-        elif opc == 3:
-            print("---accediendo---")            
+            print("---Accediendo---")
+            Menutwo()         
         elif opc == len(list):
             print("---Cerrando Programa---")
-            print("hasta la proxima...")
+            print("...Hasta la proxima...")
+            break
+def menuthree():
+    list = ["1.Para registrar","2.Para editar","3.Busqueda por ciudad","4.Para retroceder"]
+    while True:
+        print("Por favor marca una de las opcciones:")
+        for i in list:
+            print(i)
+        opc = int(input("->"))
+        if opc == 1:
+            print("---Accediendo---")
+            registrar()
+        elif opc == 2:
+            print("---Accediendo---")
+            modificar()
+        elif opc == 3:
+            print("---Accediendo---")
+            busqueda()
+        elif opc == len(list):
+            print("---Retrocediento---")
             break
 
 def Menutwo():
-    list = ["1.Cod-postal","2.poblacio Estimada",".3Pais de origen","Ó si no marca 4 para salir"]
+    list = ["1.Cod-postal","2.Población Estimada","3.Pais de origen","4. Para retroceder"]
     while True:
-        print("por favor selecciones una opccion a hacer Busqueda avanzada")
+        print("Por favor seleccione una opción para hacer una busqueda avanzada")
         for i in list:
             print(i)
-        opc == int(input("->"))
+        opc = int(input("->"))
         if opc == 1:
             print("---Accediendo---")
+            BusquedaCod()
         elif opc == 2:
             print("---Accediendo---")
+            BusquedaPes()
         elif opc == 3:
             print("---Accediendo---")
+            BusquedaOrigenP()
         elif opc == len(list):
-            print("----Retrocediendo----")         
+            print("----Retrocediendo----")
+            break
+
 
         
